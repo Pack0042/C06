@@ -1,6 +1,7 @@
 public class Kart {
     String nome;
     Motor motor = new Motor();
+    Piloto piloto;
 
     Kart() {
         motor = new Motor();

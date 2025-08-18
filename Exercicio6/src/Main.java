@@ -32,8 +32,8 @@ public class Main {
         kart1.motor.mostraInfo();
         kart2.motor.mostraInfo();
 
-        piloto1.kart = kart1;
-        piloto2.kart = kart2;
+        kart1.piloto = piloto1;
+        kart2.piloto = piloto2;
 
 
     }
